@@ -138,11 +138,48 @@ font-family: 'Ubuntu', sans-serif;
 
 .div1{
     margin-top: 5rem; 
+    margin-bottom: 3rem;
 }
 
 .div2{
     margin-top: 5rem;
     margin-right: 10px;
+    margin-bottom: 3rem;
 }
 
+
+/*-----------Ruta natural------------*/
+.divRnatural1{
+    margin-top: 10rem; 
+    margin-bottom: 3rem;
+}
+
+/*-----------Invierno en arg------------*/
+
+.div-invierno{
+    margin-top: 3.5rem; 
+    margin-bottom: 3rem;   
+}
+
+.link-plano{
+    text-decoration: none;
+}
+
+
+/*-----------Ruta del vino------------*/
+.imgmendoza{
+    width: 100%;
+    height: 41vw;
+    border-radius: 15px;  
+}
+
+.div-mendoza1{
+    margin-top: 6rem; 
+    margin-bottom: 3rem;   
+}
+
+.div-mendoza2{
+    margin-top: 2.5rem; 
+    margin-bottom: 3rem;   
+}
 
