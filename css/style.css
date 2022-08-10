@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*-------------Fuentes-----
+font-family: 'Roboto Serif', serif;
+
+font-family: 'Ubuntu', sans-serif;
+
+---------*/
+
+/*-------------Barra de navegacion--------------*/
+
+.navbar{
+    position: fixed;
+    top: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.color-navbar{
+    background-color: #3AB0FF;
+    font-weight: bold;
+    
+
+}
+
+
+.navbar-fixed{
+    width: 100%;
+    z-index: 2;
+}
+
+/*-----------------SLIDER test-----------------*/
+
+
+.carrouse-abajo{
+    margin-top: 5rem;
+    z-index: 1;
+}
+
+.carrousel-text{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: black 0.1em 0.1em 0.2em
+    
+}
+
+.img-slider{
+    width: 99vw;
+    height: 40vw;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+    
+}
+
+/*---------COLOR DE LETRA Y TEXTO CENTRADO--------------*/
+.texto-centrado{
+    text-align: center;
+    
+}
+
+.LetraCeleste{
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #3AB0FF;
+}
+
+
+
+/*-----------------Carrusel por localidades-----------------*/
+
+.carrousel-link{
+    text-decoration: none;
+    color: black;
+    width: max-content;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.texto-carrusel{
+    
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    
+}
+
+.roboto{
+    font-family: 'Roboto Serif', serif;
+}
+
+/*-----------------Footer-----------------*/
+
+.footer-celeste{
+    background-color: #3AB0FF;
+}
+.footer-blanco{
+    background-color: #fff;
+}
+
+.transform{
+    font-size: 40px;
+}
+
+
+
+/*-----------CULTURA------------*/
+
+.texto-cultura{
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.container-img{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+
+}
+
+.img-cultura{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.div1{
+    margin-top: 5rem; 
+}
+
+.div2{
+    margin-top: 5rem;
+    margin-right: 10px;
+}
+
+

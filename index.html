@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- bootstrap v5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   
+    <!-- owl carousel min.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- owl carousel theme.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- hoja css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Iconos footer -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shorcut icon" href="./Img/Icono pagina.PNG">
+    <title>Turismo Argentina</title>
+    
+</head>
+<body>
+    <!--Inicio Barra de navegacion -->
+    <nav class="navbar-fixed navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid color-navbar">
+          <a class="navbar-brand" href="#"><img src="./Img/logo 3.PNG" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#viajar">Donde ir</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nuestraCultura/nuestraCultura.html">Nuestra cultura</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Que desea buscar?" aria-label="Search">
+              <button class="btn btn-dark " type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--SLIDER AUTOMATICO PRINCIPAL -->
+
+    
+    <div id="carouselExampleDark" class=" carrouse-abajo carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img class="img-slider" src="./img/MISIONES2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="carrousel-text ">
+                    La ruta Natural <a class="btn btn-dark" href="./rutanatural/rutanatural.html">Ver mas</a> 
+                </h2>
+                 <p class="carrousel-text border-top">Conoce los mejores paisajes de nuestra Argentina.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img class="img-slider"  src="./Img/Bariloche-nieve2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="carrousel-text">Bariloche <a class="btn btn-dark" href="./ActividadNieve/nieve.html">Ver mas</a>
+                 </h2>
+                <p class="carrousel-text border-top">Disfruta de nuestras actividades en la nieve.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="img-slider" src="./Img/vino mendoza.JPG"" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="carrousel-text">Mendoza  <a class="btn btn-dark" href="./rutaDelVino/rutadelvino.html">Ver mas</a>
+                </h2>
+                <p class="carrousel-text border-top">Conoce la ruta del vino en Mendoza .</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+<!------------RECORRIDOS POR LOCALIDADES--------------->
+<section>
+    <div class="texto-centrado">
+        <h1 class="LetraCeleste">
+        Viajá por Argentina
+        </h1>
+        <p class="roboto" id="viajar">
+        Recorré los maravillosos destinos de nuestro país
+        </p>
+    </div>
+</section>
+<!------------Carrusel por localidades--------------->
+<section>
+
+    <div class="container-fluid my-5">   
+        <div class="row mt-5">
+            <div class="owl-carousel owl-theme">    
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="./img/MISIONES.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="texto-carrusel">Recorrido por <a class="carrousel-link" href="https://www.youtube.com/embed/FtD7hBacnTo">Misiones</a></h3>
+                        </div>
+
+                    </div>
+                </div>
+                <!------final items----->
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="./img/JUJUY.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="texto-carrusel" >Recorrido por <a class="carrousel-link" href="https://www.youtube.com/embed/jAkmQG7rpEk">Jujuy</a></h3>
+                        </div>
+
+                    </div>
+                </div>
+                <!------final items----->
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="./img/CORDOBA.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="texto-carrusel">Recorrido por <a class="carrousel-link" href="https://www.youtube.com/embed/FtD7hBacnTo">Cordoba</a></h3>
+                        </div>
+
+                    </div>
+                </div>
+                <!------final items----->
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="./img/BUENOS AIRES.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="texto-carrusel">Recorrido por <a class="carrousel-link" href="https://www.youtube.com/embed/kz_OU17Os3U">Buenos Aires</a></h3>
+                        </div>
+
+                    </div>
+                </div>
+                <!------final items----->
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="./img/USUAHIA.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="texto-carrusel">Recorrido por <a class="carrousel-link" href="https://www.youtube.com/embed/rbNm-Ks6Y2E">Ushuaia</a></h4>
+                        </div>
+
+                    </div>
+                </div>
+                <!------final items----->
+                <div class="item mb-4">
+                    <div class="card border-0 shadow">
+                        <img src="./img/VILLALAANGOSTURA.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="texto-carrusel">Recorrido por <a class="carrousel-link" href="https://www.youtube.com/embed/SqmWYw7gGyI">Villa La Angostura</a></h4>
+                        </div>
+
+                    </div>
+                </div>
+                <!------final items----->
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!------------FOOTER--------------->
+
+<section class="container-fluid">
+    
+    <div class="row p-5 footer-blanco roboto ">
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class=" transform h3 text-primary ">Argentina</p>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 text-primary">Siguenos!</p>
+            <div class="mb-3" >
+                 <a href="https://www.instagram.com/TurismoNacionAR/" class="fa fa-instagram"></a>Instagram </div>                
+            <div class="mb-3"> 
+                <a href="https://www.facebook.com/TurismoNacionAR/" class="fa fa-facebook"></a>Facebook </div> 
+            <div class="mb-3">  
+                <a href="https://www.youtube.com/TurismoNacionAR" class="fa fa-youtube"></a>Youtube </div> 
+               
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 text-primary">Actividades</p>
+            <div class="mb-3">
+                <a class=" text-decoration-none text-dark" href="https://www.argentina.tur.ar/#!/ar/categories/navegacion">Navegación</a>
+            </div>
+            <div class="mb-3">
+                <a class=" text-decoration-none text-dark" href="https://www.argentina.tur.ar/#!/ar/categories/nieve">Nieve</a>
+            </div>
+            <div class="mb-3">
+                <a class=" text-decoration-none text-dark" href="https://www.argentina.tur.ar/#!/ar/categories/gastronomia">Gastronomía</a>
+            </div>
+            <div class="mb-3">
+                <a class=" text-decoration-none text-dark" href="https://www.argentina.tur.ar/#!/ar/categories/cultura">Cultura</a>
+            </div>
+            <div class="mb-3">
+                <a class=" text-decoration-none text-dark" href="https://www.argentina.tur.ar/#!/ar/categories/naturaleza">Naturaleza</a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class=" text-center"><small>&copy; 2022 <b>Argentina</b> - Todos los derechos reservados </small></p>
+
+        </div> 
+
+        <div class=" texto-centrado col-xs-12">
+            <p class="h5 text-primary">Recibí novedades</p>
+            <h5>Suscribite a nuestro Newsletter </h5>
+                <P> Con tu e-mail podés recibir los mejores descuentos para tu proximo destino
+                    <input type="text" placeholder="Ingresa tu e-mail"> 
+                    <button type="button" class="btn btn-dark">Enviar</button>
+                </P>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!------------bootstrap JS--------------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<!------------cdn files--------------->
+
+<!------------jquery cdn--------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!------------owl carousel js--------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!------------inicializacion owl carrousel--------------->
+
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+
+</body>
+</html>
